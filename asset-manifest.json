@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.f3a882f0.css",
+    "main.js": "/react_portfolio/static/js/main.e9cf53d4.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/cbn_logo.png": "/react_portfolio/static/media/cbn_logo.69cefddaa05ce33ea4b0.png",
+    "static/media/portfolio_main.jpg": "/react_portfolio/static/media/portfolio_main.16e31b0090d72bfe44be.jpg",
+    "static/media/uottawa_logo.png": "/react_portfolio/static/media/uottawa_logo.56c7ff0d5a90ca3777ff.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.f3a882f0.css.map": "/react_portfolio/static/css/main.f3a882f0.css.map",
+    "main.e9cf53d4.js.map": "/react_portfolio/static/js/main.e9cf53d4.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3a882f0.css",
+    "static/js/main.e9cf53d4.js"
+  ]
+}
