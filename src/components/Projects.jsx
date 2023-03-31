@@ -35,6 +35,7 @@ function Projects() {
         <ProjectCard
           title="Shelf-it"
           subheader="Full Stack Development"
+          techStack="React.js, Google Books API, Firebase"
           demoImage="https://raw.githubusercontent.com/cmanage1/shelf-it/master/__tests__/case_6.gif"
           description="A virtual bookshelf to keep track of owned books."
           github="https://github.com/cmanage1/shelf-it"
@@ -42,6 +43,7 @@ function Projects() {
         <ProjectCard
           title="Firebase Demo"
           subheader="Firebase Project"
+          techStack="Firebase, React.js"
           demoImage="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png"
           description="Demo for uOttawa DSC Firebase Workshop."
           github="https://github.com/cmanage1/firebase-demo"
@@ -49,6 +51,7 @@ function Projects() {
         <ProjectCard
           title="LM-genie"
           subheader="Full Stack Development"
+          techStack="React.js, Python, Flask.py, Material UI"
           demoImage="https://raw.githubusercontent.com/cmanage1/lm-genie/master/test_gifs/demo.gif"
           description="(OLD) An application that matches a Law/Med school for a user"
           github="https://github.com/cmanage1/lm-genie"

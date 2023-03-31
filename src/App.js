@@ -7,7 +7,7 @@ import { createTheme, ThemeProvider } from '@mui/material';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import Extra from './components/Extra';
+// import Extra from './components/Extra';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
@@ -54,7 +54,7 @@ function App() {
                 <Route exact path="/" element={<About />} />
                 <Route path="/experience" element={<Experience />} />
                 <Route path="/projects" element={<Projects />} />
-                <Route path="/extra" element={<Extra />} />
+                {/* <Route path="/extra" element={<Extra />} /> */}
               </Routes>
             </BrowserRouter>
             <Footer />

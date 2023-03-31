@@ -10,7 +10,7 @@ function Navbar() {
           <NavLink toProp="/" buttonText="About" />
           <NavLink toProp="/experience" buttonText="Experience" />
           <NavLink toProp="/projects" buttonText="Projects" />
-          <NavLink toProp="/extra" buttonText="Extra" />
+          {/* <NavLink toProp="/extra" buttonText="Extra" /> */}
         </Stack>
       </Nav>
     </div>
