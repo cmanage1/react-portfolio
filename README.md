@@ -22,5 +22,6 @@ In the project directory, you can run:
 Runs `npm run build` which will build the app
 
 ### `npm run deploy`
+
 Deploys the app on github pages according to configs in `package.json`.
 This includes `"homepage"` property.
