@@ -10,16 +10,31 @@ function About() {
         <Box sx={{ typography: 'h5' }}>Hello 👋 </Box>
         <Card sx={{ padding: '20px' }}>
           <Box sx={{ typography: 'body1' }}>
-            I am a final-year Honours Computer Science student at University of
-            Ottawa. My experience consists of building large scale user
-            interfaces and unixserver systems. My interests include Artificial
-            Intelligence and Machine Learning using classification models. My
-            inbox is always open so feel free to contact me whenever :)
+            I&apos;m a final-year Honours Computer Science student at University of
+            Ottawa.
+            <br />
+            <br />
+            I have significant experience building large-scale user
+            interfaces using
+            {' '}
+            <b>React.js</b>
+            {' '}
+            and developing complex
+            {' '}
+            <b>Python</b>
+            {' '}
+            server systems.
+            I&apos;m also interested Artificial Intelligence and Machine Learning
+            using classification models.
+
+            <br />
+            <br />
+            My inbox is always open so feel free to contact me whenever :)
           </Box>
         </Card>
       </Box>
       <Box>
-        <Box sx={{ typography: 'h5' }}>Skills:</Box>
+        <Box sx={{ typography: 'h5' }}>Skills 🎯</Box>
         <Card sx={{ padding: '20px' }}>
           <Stack spacing={1}>
             <Box>
@@ -27,12 +42,11 @@ function About() {
               <SkillsList
                 skills={[
                   'Python',
-                  'JavaScript',
-                  'Python',
                   'TypeScript',
                   'JavaScript',
                   'C/C++',
                   'Java',
+                  'Go',
                   'bash',
                 ]}
               />
@@ -48,6 +62,7 @@ function About() {
                   'Linux',
                   'Git',
                   'Docker',
+                  'Redis',
                   'Jira',
                   'PostgreSQL',
                   'Kubernetes',
@@ -63,7 +78,7 @@ function About() {
         </Card>
       </Box>
       <Box container>
-        <Box sx={{ typography: 'h5' }}>Education:</Box>
+        <Box sx={{ typography: 'h5' }}>Education ‍🎓</Box>
         <CustomCard
           mainTitle="University of Ottawa"
           date="Sept 2018 – Apr. 2023"
