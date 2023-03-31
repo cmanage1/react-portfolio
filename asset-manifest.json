@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.db2d436f.css",
-    "main.js": "/static/js/main.ff66ddeb.js",
+    "main.js": "/static/js/main.1735fffe.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/cbn_logo.png": "/static/media/cbn_logo.69cefddaa05ce33ea4b0.png",
     "static/media/portfolio_main.jpg": "/static/media/portfolio_main.16e31b0090d72bfe44be.jpg",
     "static/media/uottawa_logo.png": "/static/media/uottawa_logo.56c7ff0d5a90ca3777ff.png",
     "index.html": "/index.html",
     "main.db2d436f.css.map": "/static/css/main.db2d436f.css.map",
-    "main.ff66ddeb.js.map": "/static/js/main.ff66ddeb.js.map",
+    "main.1735fffe.js.map": "/static/js/main.1735fffe.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db2d436f.css",
-    "static/js/main.ff66ddeb.js"
+    "static/js/main.1735fffe.js"
   ]
 }
