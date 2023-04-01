@@ -10,8 +10,8 @@ function About() {
         <Box sx={{ typography: 'h5' }}>Hello 👋 </Box>
         <Card sx={{ padding: '20px' }}>
           <Box sx={{ typography: 'body1' }}>
-            I&apos;m a final-year Honours Computer Science student at University of
-            Ottawa.
+            I&apos;m a software developer based in Toronto and
+            recent graduate with Honours in Computer Science.
             <br />
             <br />
             I have significant experience building large-scale user

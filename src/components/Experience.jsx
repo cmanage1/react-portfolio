@@ -9,7 +9,6 @@ import CBNLogo from '../images/cbn_logo.png';
 function Experience() {
   return (
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ typography: 'body2' }}>* Most recent to least</Box>
       <Stack spacing={4}>
         <CustomCard
           mainTitle="University of Ottawa - IT, Web Services"
