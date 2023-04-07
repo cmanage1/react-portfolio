@@ -7,7 +7,8 @@ function Navbar() {
     <div>
       <Nav>
         <Stack sx={{ display: 'inline-block' }} direction="row" spacing={2}>
-          <NavLink toProp="/" buttonText="About" />
+          <NavLink toProp="/" buttonText="Home" />
+          <NavLink toProp="/about" buttonText="About" />
           <NavLink toProp="/experience" buttonText="Experience" />
           <NavLink toProp="/projects" buttonText="Projects" />
           {/* <NavLink toProp="/extra" buttonText="Extra" /> */}

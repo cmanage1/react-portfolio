@@ -143,16 +143,20 @@ function NavLink(props) {
   return (
     <Button
       variant="text"
-      color="primary"
       sx={{
-        fontWeight: 'strong',
-        typography: 'subtitle1',
         textDecoration: 'none',
       }}
       LinkComponent={Link}
       to={props.toProp}
     >
-      {props.buttonText}
+      <Box sx={{
+        color: '#0D1117',
+        typography: 'subtitle1',
+        fontWeight: 'strong',
+      }}
+      >
+        {props.buttonText}
+      </Box>
     </Button>
   );
 }

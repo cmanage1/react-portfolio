@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 const customTheme = createTheme({
   palette: {
@@ -26,17 +27,13 @@ const customTheme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={customTheme}>
-      <Box sx={{ }}>
+      <Box>
         <Grid
           container
           sx={{ position: 'relative', display: 'flex' }}
           spacing={2}
         >
-          <Grid
-            item
-            sx={{ height: '100vh' }}
-            xs={4}
-          >
+          <Grid item sx={{ height: '100vh' }} xs={4}>
             <Profile />
           </Grid>
           <Grid
@@ -51,7 +48,8 @@ function App() {
             <BrowserRouter>
               <Navbar />
               <Routes>
-                <Route exact path="/" element={<About />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
                 <Route path="/experience" element={<Experience />} />
                 <Route path="/projects" element={<Projects />} />
                 {/* <Route path="/extra" element={<Extra />} /> */}

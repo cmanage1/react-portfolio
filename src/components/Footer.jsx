@@ -18,7 +18,7 @@ function Footer() {
             href="https://github.com/cmanage1/cmanage1.github.io"
             target="__blank"
           >
-            <FaGithub size={20} color="purple" />
+            <FaGithub size={20} color="#CA0135" />
           </IconButton>
         </Box>
       </Box>
