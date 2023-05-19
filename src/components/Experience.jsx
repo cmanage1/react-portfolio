@@ -12,12 +12,12 @@ function Experience() {
       <Stack spacing={4}>
         <CustomCard
           mainTitle="University of Ottawa - IT, Web Services"
-          date="Jan 2023 - Present"
+          date="Jan 2023 - Apr. 2023"
           secondaryTitle="Jr. Systems Developer (Part-Time)"
           location="Ottawa, ON"
           listDescription={[
-            'Maintaining web server systems within University of Ottawa IT using Docker and Kubernetes.',
-            'Revising web applications to serve a 47,000 university populace using React and PHP',
+            'Enhanced the performance and security of an Authentication Reset tool for a diverse university community of over 50,000 by implementing updates using React, Express.js, and Node.js.',
+            'Assisted the migration of 315 uOttawa.ca subdomains by implementing various features in Drupal, PHP, and JavaScript to improve user experience and accessibility.',
           ]}
           logo={uOttawaRedLogo}
           logoAlt="uOttawa Logo"
@@ -28,10 +28,9 @@ function Experience() {
           secondaryTitle="Software Developer (CO-OP)"
           location="Gatineau, QC"
           listDescription={[
-            'Developed front-end features using React for Macadamian’s elemedicine app used by 9 Ontario clinics.',
-            'Improved customer satisfaction by 10% through surveys and meetings which discuss product feedback.',
-            'Participated in daily SCRUM meetings with 4 other engineers to discuss bi-weekly Sprint progress.',
-            'Used Git and Azure DevOps to collaborate and contribute to various project pipelines.',
+            'Assisted the migration of 315 uOttawa.ca subdomains by implementing various features in Drupal, PHP, and JavaScript to improve user experience and accessibility.',
+            'Spearheaded the design and development of the instant messaging notification service within InQ using Twilio and Lisp-powered internal tools.',
+            <a target="__blank" rel="noopener noreferrer" href="https://www.emids.com/offerings/platforms/healthconnect/inq-digital-front-door/">project link</a>,
           ]}
           logo={macadamianLogo}
           logoAlt="Macadamian Logo"
@@ -42,10 +41,8 @@ function Experience() {
           secondaryTitle=" Jr. Systems Administrator (CO-OP)"
           location="Ottawa, ON"
           listDescription={[
-            'Rebuilt an existing internal API from SOAP to REST for a 3x decrease in server resources.',
-            'Developed the REST API using Python and Flask and deployed it to production with a 99.9% uptime.',
-            'Documented 350 lines of debugging instructions, test reports, and method descriptions to Confluence.',
-            'Utilized bash terminal tools to troubleshoot various problems within Linux servers.',
+            'Engineered a high-performing REST API using Python and Flask with Redis caching for Transport Layer Security operations, achieving an exceptional 99.999% uptime on a Linux Server in production.',
+            'Significantly reduced server resources by 3x compared to the previous SOAP API implementation.',
           ]}
           logo={CBNLogo}
           logoAlt="CBN Logo"
@@ -56,10 +53,8 @@ function Experience() {
           secondaryTitle="Software Engineer Intern (Part-Time)"
           location="Ottawa, ON"
           listDescription={[
-            'Designed a unit testing framework using Jest.js to add 73% code coverage for the department’s website.',
-            'Implemented 11 new features to the department’s e-learning website using React and Redux.',
-            'Used Jira collaboration tools to build software with a team in Sprints following Agile methodologies.',
-            'Modified existing low-cohesion code for faster feature development in future software iterations.',
+            'Designed and launched 11 new features to enhance the department’s e-learning applications using React and Redux, which were successfully deployed for production, resulting in improved stakeholder satisfaction.',
+            'Established unit testing procedure using Jest.js to achieve an impressive 70% code coverage within 2 months of the project start date.',
           ]}
           logo={DFMLogo}
           logoAlt="DFM Logo"

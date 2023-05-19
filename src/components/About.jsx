@@ -18,8 +18,6 @@ function About() {
                   'TypeScript',
                   'JavaScript',
                   'C/C++',
-                  'Java',
-                  'Go',
                   'bash',
                 ]}
               />
@@ -32,20 +30,20 @@ function About() {
               <Box sx={{ typography: 'h6' }}>Developer Tools:</Box>
               <SkillsList
                 skills={[
-                  'Linux',
+                  'RHEL Linux',
                   'Git',
                   'Docker',
                   'Redis',
                   'Jira',
                   'PostgreSQL',
                   'Kubernetes',
-                  'Azure',
+                  'AWS EC2',
                 ]}
               />
             </Box>
             <Box>
               <Box sx={{ typography: 'h6' }}>Libraries:</Box>
-              <SkillsList skills={['Pandas', 'NumPy', 'Lodash', 'Axios']} />
+              <SkillsList skills={['Pandas', 'NumPy', 'Lodash', 'Matplotlib', 'scikit-learn']} />
             </Box>
           </Stack>
         </Card>

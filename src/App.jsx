@@ -14,7 +14,11 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 
 const customTheme = createTheme({
+  typography: {
+    fontFamily: 'Mulish, sans-serif',
+  },
   palette: {
+    // mode: 'dark',
     primary: {
       main: '#0052cc',
     },
