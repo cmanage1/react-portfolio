@@ -28,7 +28,7 @@ function Experience() {
           secondaryTitle="Software Developer (CO-OP)"
           location="Gatineau, QC"
           listDescription={[
-            'Assisted the migration of 315 uOttawa.ca subdomains by implementing various features in Drupal, PHP, and JavaScript to improve user experience and accessibility.',
+            'Constructed and delivered front-end features using React and TypeScript for Macadamian’s InQ Telehealth Solution, which was utilized by 9 Canadian clinics during development and later acquired by Emids, a leading global player in the Medical Technology industry.',
             'Spearheaded the design and development of the instant messaging notification service within InQ using Twilio and Lisp-powered internal tools.',
             <a target="__blank" rel="noopener noreferrer" href="https://www.emids.com/offerings/platforms/healthconnect/inq-digital-front-door/">project link</a>,
           ]}
