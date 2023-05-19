@@ -25,6 +25,7 @@ function Profile() {
             aria-label="linkedin link"
             href="https://www.linkedin.com/in/chethinm/"
             target="__blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedin color="white" />
           </IconButton>
@@ -33,6 +34,7 @@ function Profile() {
             aria-label="github link"
             href="https://github.com/cmanage1/"
             target="__blank"
+            rel="noopener noreferrer"
           >
             <FaGithub color="white" />
           </IconButton>
@@ -40,6 +42,7 @@ function Profile() {
             variant="contained"
             aria-label="email"
             href="mailto:chethin.manage@gmail.com"
+            rel="noopener noreferrer"
           >
             <FaEnvelope color="white" />
           </IconButton>
@@ -48,8 +51,9 @@ function Profile() {
           <Button
             variant="contained"
             color="secondary"
-            href="https://drive.google.com/file/d/1nC7sxtu7Ftk_Vyu4LI0XGy-9wBs9GsMW/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Gqtw-Q167Dui54UTBGNCnj1m8m_1PBA6/view?usp=sharing"
             target="__blank"
+            rel="noopener noreferrer"
           >
             Resume
           </Button>

@@ -11,22 +11,22 @@ function Home() {
         <Box sx={{ typography: 'h5' }}>👋 Hi  </Box>
         <Card sx={{ padding: '20px' }}>
           <Box sx={{ typography: 'body1' }}>
-            I&apos;m a Full-Stack Developer based in Toronto and
-            recent graduate with Honours in Computer Science.
-            <br />
-            <br />
-            I have significant experience building large-scale user
-            interfaces using
+            As a Full-Stack Developer based in Toronto and recent graduate
+            of Honours B.Sc. in Computer Science from uOttawa,
+            I specialize in building robust user interfaces with
             {' '}
             <b>React.js</b>
             {' '}
-            and developing complex
+            and developing sophisticated
             {' '}
             <b>Python</b>
             {' '}
             server systems.
-            I&apos;m also interested Artificial Intelligence and Machine Learning
-            using classification models.
+            <br />
+            <br />
+            I&apos;m particularly passionate about Artificial Intelligence and
+            Machine Learning, dedicating most of my time to furthering my
+            knowledge in it.
 
             <br />
             <br />
@@ -44,17 +44,17 @@ function Home() {
                   <List sx={{ listStyleType: 'disc', pl: 4 }} pad>
                     <ListItem sx={{ display: 'list-item', listStyleType: '-', pl: 1 }}>
                       <ListItemText
-                        primary="Working as a Systems Developer for uOttawa Web Services"
-                      />
-                    </ListItem>
-                    <ListItem sx={{ display: 'list-item', listStyleType: '-', pl: 1 }}>
-                      <ListItemText
                         primary="Searching for Full-Stack Developer positions in Toronto"
                       />
                     </ListItem>
                     <ListItem sx={{ display: 'list-item', listStyleType: '-', pl: 1 }}>
                       <ListItemText
-                        primary="Writing Python automations"
+                        primary="Learning Supervised Machine Learning online"
+                      />
+                    </ListItem>
+                    <ListItem sx={{ display: 'list-item', listStyleType: '-', pl: 1 }}>
+                      <ListItemText
+                        primary="Doing small research projects"
                       />
                     </ListItem>
                   </List>
