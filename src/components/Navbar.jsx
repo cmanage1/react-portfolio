@@ -1,20 +1,28 @@
-import { Stack } from '@mui/material';
+import { Grid, Box } from '@mui/material';
 import React from 'react';
-import { Nav, NavLink } from './styled';
+import { ModeButton, Nav, NavLink } from '../style/styled';
 
-function Navbar() {
+function Navbar(props) {
+  // eslint-disable-next-line react/prop-types
+  const { colorMode, theme, mode } = props;
+
   return (
-    <div>
-      <Nav>
-        <Stack sx={{ display: 'inline-block' }} direction="row" spacing={2}>
-          <NavLink toProp="/" buttonText="Home" />
-          <NavLink toProp="/about" buttonText="About" />
-          <NavLink toProp="/experience" buttonText="Experience" />
-          <NavLink toProp="/projects" buttonText="Projects" />
-          {/* <NavLink toProp="/extra" buttonText="Extra" /> */}
-        </Stack>
-      </Nav>
-    </div>
+    <Grid container alignItems="center">
+      <Grid item xs={10}>
+        <Nav>
+          <Box display="flex" flexDirection="row" gap={4}>
+            <NavLink toProp="/" buttonText="home" />
+            <NavLink toProp="/about" buttonText="about" />
+            <NavLink toProp="/experience" buttonText="experience" />
+            <NavLink toProp="/projects" buttonText="projects" />
+            {/* <NavLink toProp="/extra" buttonText="Extra" /> */}
+          </Box>
+        </Nav>
+      </Grid>
+      <Grid item xs={2}>
+        <ModeButton colorMode={colorMode} theme={theme} mode={mode} />
+      </Grid>
+    </Grid>
   );
 }
 

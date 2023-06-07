@@ -4,7 +4,7 @@ import {
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import pic from '../images/portfolio_main.jpg';
-import { ProfileArea } from './styled';
+import { ProfileArea } from '../style/styled';
 
 function Profile() {
   return (

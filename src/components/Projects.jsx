@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectCard, ProjectStack } from './styled';
+import { ProjectCard, ProjectStack } from '../style/styled';
 
 function Projects() {
   return (

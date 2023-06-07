@@ -1,6 +1,6 @@
-import { Box, Card, Stack } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 import React from 'react';
-import { CustomCard, SkillsList } from './styled';
+import { CustomCard, Item, SkillsList } from '../style/styled';
 import uOLogo from '../images/uottawa_logo.png';
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
     <Stack spacing={4}>
       <Box>
         <Box sx={{ typography: 'h5' }}>🎯 Skills </Box>
-        <Card sx={{ padding: '20px' }}>
+        <Item sx={{ padding: '20px' }}>
           <Stack spacing={1}>
             <Box>
               <Box sx={{ typography: 'h6' }}>Languages:</Box>
@@ -46,9 +46,9 @@ function About() {
               <SkillsList skills={['Pandas', 'NumPy', 'Lodash', 'Matplotlib', 'scikit-learn']} />
             </Box>
           </Stack>
-        </Card>
+        </Item>
       </Box>
-      <Box container>
+      <Box>
         <Box sx={{ typography: 'h5' }}> 🎓 Education ‍</Box>
         <CustomCard
           mainTitle="University of Ottawa"
