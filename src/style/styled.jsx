@@ -12,16 +12,17 @@ import {
   Grid,
   Stack,
   ListItem,
+  IconButton,
 } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 
 const Item = styled(Card)(({ theme }) => ({
-  backgroundColor: '#fff',
   padding: theme.spacing(3),
   justifyContent: 'center',
-  // textAlign: 'center',
-  // color: theme.palette.text.secondary,
+  backgroundColor: theme.palette.background.card,
 }));
 
 function CustomCard(props) {
@@ -82,10 +83,16 @@ function CustomCard(props) {
     </Item>
   );
 }
+const ProjectItem = styled(Card)(({ theme }) => ({
+  padding: theme.spacing(3),
+  justifyContent: 'center',
+  maxWidth: 300,
+  backgroundColor: theme.palette.background.card,
+}));
 
 function ProjectCard(props) {
   return (
-    <Card sx={{ maxWidth: 300 }}>
+    <ProjectItem>
       <CardMedia component="img" height="194" image={props.demoImage} />
       <CardContent>
         <Box sx={{ typography: 'h5', fontWeight: 'bold' }}>
@@ -93,7 +100,7 @@ function ProjectCard(props) {
           {props.title}
           {' '}
         </Box>
-        <Box sx={{ typography: 'body1', component: 'div' }}>
+        <Box sx={{ typography: 'body1' }}>
           {' '}
           {props.subheader}
           {' '}
@@ -116,21 +123,21 @@ function ProjectCard(props) {
       </CardContent>
       <CardActions>
         {props.github ? (
-          <Button size="small" target="__blank" href={props.github}>
+          <Button size="small" target="__blank" href={props.github} variant="outlined">
             Github
           </Button>
         ) : (
           ''
         )}
         {props.colab ? (
-          <Button size="small" target="__blank" href={props.colab}>
+          <Button size="small" target="__blank" href={props.colab} variant="outlined">
             Google Colab
           </Button>
         ) : (
           ''
         )}
       </CardActions>
-    </Card>
+    </ProjectItem>
   );
 }
 
@@ -141,29 +148,32 @@ const Nav = styled('nav')(() => ({
 
 function NavLink(props) {
   return (
-    <Button
-      variant="text"
-      sx={{
-        textDecoration: 'none',
-      }}
-      LinkComponent={Link}
-      to={props.toProp}
-    >
-      <Box sx={{
-        color: '#0D1117',
-        typography: 'subtitle1',
-        fontWeight: 'strong',
-      }}
+    <Box>
+      <Link
+        to={props.toProp}
+        style={{
+          textDecoration: 'underline',
+          fontWeight: '500',
+          color: 'inherit',
+        }}
       >
-        {props.buttonText}
-      </Box>
-    </Button>
+        <Box
+          typography="subtitle1"
+          sx={{
+            textDecoration: 'none',
+            fontWeight: 'strong',
+          }}
+        >
+          {props.buttonText}
+        </Box>
+      </Link>
+    </Box>
   );
 }
 
 const ProfileArea = styled(Stack)(() => ({
   color: 'white',
-  backgroundColor: '#0D1117',
+  backgroundColor: '#121212',
   padding: 8,
   display: 'flex',
   flexDirection: 'column',
@@ -185,6 +195,31 @@ function SkillsList(props) {
   );
 }
 
+function ModeButton(props) {
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'text.primary',
+        borderRadius: 1,
+        p: 3,
+      }}
+    >
+      <Box typography="body1">
+        {props.mode}
+        {' '}
+        mode
+      </Box>
+      <IconButton sx={{ ml: 1 }} onClick={props.colorMode.toggleColorMode} color="inherit">
+        {props.theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+      </IconButton>
+    </Box>
+  );
+}
+
 export {
   Item,
   CustomCard,
@@ -194,4 +229,5 @@ export {
   ProfileArea,
   ProjectStack,
   SkillsList,
+  ModeButton,
 };

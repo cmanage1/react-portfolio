@@ -1,6 +1,6 @@
-import { Box, Stack } from '@mui/material';
+import { Box, Link, Stack } from '@mui/material';
 import React from 'react';
-import { CustomCard } from './styled';
+import { CustomCard } from '../style/styled';
 import macadamianLogo from '../images/macadamian_logo.jpeg';
 import uOttawaRedLogo from '../images/uottawa_logo.png';
 import DFMLogo from '../images/dfm_logo.jpeg';
@@ -30,7 +30,9 @@ function Experience() {
           listDescription={[
             'Constructed and delivered front-end features using React and TypeScript for Macadamian’s InQ Telehealth Solution, which was utilized by 9 Canadian clinics during development and later acquired by Emids, a leading global player in the Medical Technology industry.',
             'Spearheaded the design and development of the instant messaging notification service within InQ using Twilio and Lisp-powered internal tools.',
-            <a target="__blank" rel="noopener noreferrer" href="https://www.emids.com/offerings/platforms/healthconnect/inq-digital-front-door/">project link</a>,
+            <Link color="secondary" target="__blank" rel="noopener noreferrer" href="https://www.emids.com/offerings/platforms/healthconnect/inq-digital-front-door/">
+              project link
+            </Link>,
           ]}
           logo={macadamianLogo}
           logoAlt="Macadamian Logo"
